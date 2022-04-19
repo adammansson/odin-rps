@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 18px;
+}
+
+#scoreContainer {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerContainer, #computerContainer {
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#playerScore, #computerScore {
+    font-size: 44px;
+}
+
+#playerScore {
+    color: blue;
+}
+
+#computerScore {
+    color: red;
+}
+
+#displayInfo, #displayResult, #displayScore, #displayFinal {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+} 
+
